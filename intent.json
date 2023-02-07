@@ -1,0 +1,381 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good Evening",
+        "Good day",
+        "i need a help "
+
+      ],
+      "responses": [
+        "Welcome to Frontier Dental How can I Help ",
+        "Hi I'm Alice a virtual assistant of Frontier Dental",
+        "Hey there :-)",
+        "Hello, thanks for visiting Frontier Dental How can i help",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Good Bye see you again",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help! is there anything Else that I can help you with",
+        "Any time!",
+        "Its My pleasure to Serve you"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Give me something",
+        "I want to by something",
+        "you Sell which kind of Product",
+        "I need some Dental items",
+        "I need some product",
+        "what Product do you have ",
+        "what Kind of Product you do have ",
+        "What Product Do you sell",
+        "what can i buy from you",
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell medical items specially we sell Dental items",
+        "We have medical items and have a wider range of Dental items"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "tell something about the Payment",
+        "How do I pay",
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "how long it will take to get the Items",
+        "how long it will take to reach my place",
+        "how long it take to get the Product",
+        "how long does it take to get the Product",
+        "how long it take to get the items",
+        "how long it take to get the delivery",
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Most of the time the Delivery takes 2-4 days but for certain pincode it can be delayed by 1-2 days more",
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days",
+        "Orders placed before 3:30PM EST are guaranteed to ship out that same day. As well, we try to get out every single order placed before 5:00PM. Depending on your location, your order should reach you within 1-2 business days. We also provide an option for overnight shipping."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me some thing that i can Laugh",
+        "can you be funny",
+        "Write some thing to make me happy",
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison.",
+        "Did you hear about the actor who fell through the floorboards? He was just going through a stage.",
+        "I invented a new word!  Plagiarism!",
+        "Why don’t scientists trust atoms? Because they make up everything."
+      ]
+    },
+    {
+      "tag":"discount",
+      "patterns":[
+        "so me the most Discounted Products",
+        "can i get some extra discount",
+        "Give me Discount",
+        "How to avail more discount",
+        "Please Give me some Discount",
+        "Can i have some more Discount",
+        "Can you give me discount"
+      ],
+      "responses":[
+        "To get the Discounted Product you can visit 'Deals of the Day' and 'Special' section in website",
+        "Right now I dont have any coupon with me  but you can find The discounted product in the 'Deals of the day' and 'Special' Section in the Website"
+      ]
+
+    },
+    {
+      "tag":"contact",
+      "patterns": [
+        "give me contact Details ",
+        "Connect me to the Customer Care executive",
+        "Can you Connect me to the Customer Care",
+        "what is the Phone number",
+        "Do you have Email",
+        "Do you have any Email ",
+        "what is the Email Address",
+        "where can I get the contact information",
+        "How to contact"
+      ],
+      "responses":[
+        "Connect Our Customer Executive at \n416-281-3681",
+        "To call Our Customer Care you can call this number\n416-281-3681 ",
+        "You can Email us on \ninfo@frontierdental.ca and You can call us on \n416-281-3681",
+        "You can find the Contact Details in the Contact Section"
+      ]
+
+    },
+    {
+      "tag":"Address",
+      "patterns": [
+        "What is your Address",
+        "What is your Location",
+        "what is the Address",
+        "what is the Location",
+        "give me link of your Address",
+        "give me Address link ",
+        "give me the map link",
+        "Where you are Located",
+        "Tell me the Address",
+        "Can i know what is the Address ",
+        "Where can i find you"
+      ],
+      "responses":[
+        "Here is the Map Link : https://www.google.com/maps/place/2720+Steeles+Ave+W+Unit+%232,+Concord,+ON+L4K+4S3,+Canada/@43.7792487,-79.5083271,17z/data=!3m1!4b1!4m6!3m5!1s0x882b2e3135821e29:0xe90897aa09aa0c2e!8m2!3d43.7792487!4d-79.5083271!16s%2Fg%2F11rgfzbxwn",
+        "Our Company is Situated in Canada, here is the Address \n 2720 Steeles Ave W Unit #2\nConcord, ON L4K 4N5, Canada",
+        "Most of the Service are Online but if you want to visit us you can find  the Address in the Bottom of the Page or in the  Contact us Section"
+      ]
+    },
+    {
+      "tag":"best",
+      "patterns":[
+        "is this the best place to buy the Dental Product",
+        "Is this the Best Place to buy",
+        "Are you the Best",
+        "Why should I buy from you"
+      ],
+      "responses":[
+        "From Companies internal Servey we figured it out that 4 Out Of 5 Dentists Agree\nWe're better than the rest. \n\nThe 5th dentist wants to find out, but is stuck in a contract with one of The Other Guys and hasn’t had a chance to try us yet.",
+        "What We Believe\n \nThe mark-up on dental equipment and supplies is unfair. And you should never have to cross your fingers and hope that an item you need will be available when you’ve run out.\n\nIn a perfect world, you would have a sales rep who can anticipate when you’re going to run out of something so that it appears at your office before you have a chance to order it. That might sound like a fantasy, but that’s life with Frontier. Because we believe our customers are worth the effort. And we always go the extra smile.\n\nAt Frontier, you order via our user-friendly online store, or call up your rep, ask for the product you need, and we’ll ship it that same day. Existing customers have 30 days to pay and if you ordered the wrong thing, we’ll send you the right one. Satisfaction guaranteed.\n\nWe value our team members, and we appreciate your business.\nWelcome to the new Frontier in dental supplies.",
+        "Buying dental supplies should be easier than pulling teeth\n \nSince early beginnings in 2016, Frontier Dental has been dedicated to providing a new customer experience in the dental supply industry, built on service and customer centricity.\n\nWe are different from other competitors in the market. You’re not just a number at Frontier Dental - your experience as a customer is what we are passionate about and is why we will always go the extra smile to ensure your complete satisfaction and happiness.",
+        "You’re In Good Hands\n \nAt Frontier, you’ll always get the best deal on dental supplies—that’s probably how we’ll win your business. But overall customer experience is how we’ll earn your loyalty. For instance, with us, you’ll have a dedicated sales rep. One point of contact, knowledgeable in the dental industry (most of our reps have worked as dental professionals and know their labials from their linguals), who you’ll speak to every time you need something. They’ll get to know your needs, your dog’s name, and they’ll happily answer your questions while providing recommendations and advice based on your situation and your budget"
+      ]
+
+    },
+    {
+      "tag":"name",
+      "patterns":[
+        "by the  way what is our name",
+        "what is you name by the Way",
+        "can you tell your name",
+        "what name did they Give you",
+        "What can i call you",
+        "what is your name"
+      ],
+      "responses":[
+        "You can call me Alice Nice to Meet you",
+        "Hi my name is Alice I'm Here to Help you",
+        "Hi My name is  Alice I'm a virtual assistant of Frontier Dental"
+
+      ]
+
+    },
+    {
+      "tag":"no",
+      "patterns":[
+        "That's all",
+        "no im good",
+        "I dont need your help",
+        "stop",
+        "no thank you",
+        "no thanks ",
+        "not needed",
+        "no"
+      ],
+      "responses":[
+        "If you dont need any help you can simply type q to leave the chat",
+        "Thanks For Visiting see you again \n reply with q to leave the chat "
+      ]
+
+    },
+    {
+      "tag":"return",
+      "patterns": [
+        "how can return a Shipment",
+        "what is your return Policy",
+        "How can i Return a Product",
+        "How can i Return",
+        "Do you take Return",
+        "Do you have any Return Policy"
+      ],
+      "responses":[
+        "Yes we do take Return but 60 days. For non-registered customers this may vary product by product ",
+        "60 days. For non-registered customers this may vary product by product"
+
+      ]
+
+    },
+    {
+      "tag": "Checkup",
+      "patterns":[
+        "How Often Should I Have a Dental Examination ?",
+        "When Should I Have a Dental Exam ?",
+        "How Frequently Should I Have a Dental Exam",
+        "How Often Should I Get a Dental Checkup"
+      ],
+      "responses":[
+        "Although dental health varies from person to person and even if \n your mouth is in perfect shape, it is generally recommended for adult patients \n to see a dentist once or twice a year. This will allow you to maintain good oral health by getting your teeth properly cleaned on a regular basis.",
+        "Even if your mouth is in fantastic shape, it's generally recommended for adult patients to visit the dentist once or twice a year, as dental health differs from person to person. By doing so, you may maintain good dental health and get your teeth professionally cleaned on a regular basis.",
+        "Individual differences in dental health make it important for adults to visit the dentist once or twice a year, even if their mouths are in fantastic shape. You may achieve exceptional oral health in this way by getting your teeth properly cleaned on a regular basis.",
+        "Dental health varies from person to person; a general rule for adult patients is to visit a dentist once or twice a year, even if your mouth is in excellent condition. This way, you can get your teeth professionally cleaned regularly and maintain excellent oral health."
+      ]
+
+    },
+    {
+      "tag":"Hygiene",
+      "patterns":[
+        "How Do I Practice Good Oral Hygiene at Home?",
+        "What Are the Best Ways to Maintain Good Oral Hygiene at Home?",
+        "Which Techniques Are the Best for Practicing Good Oral Hygiene at Home?",
+        "Which Techniques Are the Best for Practicing Good Oral Hygiene at Home?",
+        "How Can You Maintain Good Oral Hygiene at Home?",
+        "What Are the Best Ways to Practice Good Oral Hygiene at Home?"
+      ],
+      "responses":[
+        "Take your oral hygiene to the next level by following a few measures to optimal dental health in addition to regularly brushing and flossing your teeth. These incorporate:\n\nuse fluoride-containing goods.\nlimiting sugary food.\nconsuming fruits and vegetables as part of a balanced diet.\nstaying away from cigarettes in any form.",
+        "Follow a few steps to good dental health to advance your oral hygiene beyond the everyday brushing and flossing. A few of these include\n\nthe use of fluoride-containing products.\nsnacks with a lot of sugar should be avoided.\nfollowing a fruit and vegetable-rich diet.\nany sort of tobacco should be avoided.",
+        "Follow a few measures to excellent dental health in addition to daily brushing and flossing to improve your oral hygiene. These comprise:\n\nusing fluoride-containing goods.\nsugary snacks should be kept to a minimum.\nconsuming a diet rich in fruits and vegetables.\navoiding any tobacco products.",
+        "Take your oral hygiene to the next level by following a few measures to optimal dental health in addition to everyday brushing and flossing. These consist of:\n\nusing fluoride-containing products.\nlimiting the consumption of sugar-rich foods.\neating fruits and vegetables as part of a balanced diet.\navoiding all forms of tobacco.",
+        "In addition to daily brushing and flossing, take your oral hygiene to the next level by following a few steps to good dental health. These include:\n\nUsing products that contain fluoride.\nLimiting snacks that are high in sugar.\nEating a balanced diet of fruits and vegetables.\nAvoiding tobacco in any form."
+      ]
+    },
+    {
+      "tag":"Whiten",
+      "patterns":[
+        "How can i make my teeth Whiter",
+        "What Steps Can I Take to Whiten My Teeth Better?",
+        "What Can I Do to Make My Teeth Whiter?",
+        "How Can I Whiten My Teeth More Effectively?",
+        "How Can I Improve the Whiteness of My Teeth?"
+      ],
+      "responses":[
+        "A stunning smile with white, healthy teeth may make you feel much more confident. Over time, most people's teeth get discoloured in some way, whether from internal or external stains. Use at-home whitening products to remove stains brought on by coffee, alcohol, cigarettes, and pigmented foods, or have routine in-office whitening procedures performed by a dental specialist. Consider composite bonding or placing veneers on the discoloured teeth for a more long-lasting fix.",
+        "One of the biggest confidence boosters is a stunning smile with white, healthy teeth. Over time, most people's teeth get somewhat discoloured, whether from internal or external stains. Use at-home whitening products to remove coffee, wine, cigarette, and pigmented food stains, or have routine in-office whitening procedures performed by a dental specialist. Consider applying veneers to the afflicted teeth or composite bonding as a more long-lasting remedy for interior discolouration.",
+        "A gorgeous smile with white, healthy teeth may make you feel much more confident. Over time, the majority of people have some tooth discoloration, either from external or interior stains. Use an at-home whitening kit to remove stains from coffee, alcohol, cigarettes, and pigmented foods, or have routine in-office whitening performed by a dental specialist. Consider composite bonding or applying veneers to the discoloured teeth for a more long-lasting fix if the discoloration is internal.",
+        "A stunning smile and sparkling, white teeth may make you feel much more confident. Over time, most people's teeth get discoloured in some way, either from external or interior stains. Use at-home whitening products to remove stains brought on by coffee, alcohol, cigarettes, and coloured foods, or have routine in-office whitening procedures performed by a specialist. Consider composite bonding or applying veneers to the afflicted teeth for a more long-lasting remedy for interior discolouration.",
+        "A beautiful smile with clean, white teeth is a huge confidence booster. Most people experience some discoloration of teeth over the years, either from surface stains or internal ones. Treat stains caused by coffee, wine, tobacco, and pigmented foods with at-home whitening or have professional, in-office whitening done regularly. For internal discoloration, consider composite bonding or the application of veneers to the affected teeth, which provides a more permanent solution."
+      ]
+
+    },
+    {
+      "tag": "Sensitivity",
+      "patterns":[
+        "Sensitivity",
+        "I Have Sensitive Teeth. How Do I Fix This?",
+        "How to avoid sensitivity",
+        "What is tooth sensitivity?",
+        "What is tooth sensitivity, and why do I get it?",
+        "What is tooth sensitivity, and why am I affected by it?",
+        "Why Do I Have Tooth Sensitivity and What Is Tooth Sensitivity?",
+        "Why do I have tooth sensitivity, and what is it?",
+        "What Is Tooth Sensitivity and Why Do I Have It?"
+      ],
+      "responses":[
+        "When consuming meals or beverages that are hot, cold, sweet, or acidic, patients with sensitive teeth experience pain. When dental enamel, which typically shields the pulp and dentin from damage, thins out as a result of frequent contact to acids and high temperatures, sensitivity results. Additionally, the following can lead to sensitivity:\n\ngum resorption\ntooth whitening Teeth chipping or breaking while sleeping\ndental work and braces\nWhen you speak with a dental expert, they will evaluate the impacted teeth and provide treatment recommendations to lessen your sensitivity.",
+        "When consuming hot, cold, sweet, or acidic meals or beverages, patients with sensitive teeth experience pain. The thinning of dental enamel, which normally shields the pulp and dentin from damage by acids and high temperatures, is what causes sensitivity. Sensitivity may also originate from:\n\ngums that are receding\nBruxism when sleeping, broken or chipped teeth, and tooth whitening\northodontics and fillings\nSpeak with your dentist, who will check the impacted teeth and provide a treatment recommendation to lessen your sensitivity.",
+        "The consumption of hot, cold, sweet, or acidic meals or beverages causes discomfort in patients with sensitive teeth. As a result of frequent exposure to acid and high temperatures, dental enamel, which normally shields the pulp and dentin from damage, thins and becomes sensitive. Added causes of sensitivity include:\n\nresorbing gums\nChipped or broken teeth Tooth whitening Nighttime tooth grinding\nFillings and orthodontics\nBy speaking with a dental expert, you may have your sensitive teeth looked at and given recommendations for therapy.",
+        "When consuming meals or beverages that are hot, cold, sweet, or acidic, patients with sensitive teeth experience pain. When dental enamel, which typically shields the pulp and dentin from damage, thins out as a result of frequent contact to acids and high temperatures, sensitivity results. Additionally, the following can lead to sensitivity:\n\ngum resorption\ntooth whitening Teeth chipping or breaking while sleeping\ndental work and braces\nWhen you speak with a dental expert, they will evaluate the impacted teeth and provide treatment recommendations to lessen your sensitivity.",
+        "When consuming hot, cold, sweet, or acidic meals or drinks, patients with sensitive teeth experience discomfort. As a result of frequent exposure to acid and high temperatures, dental enamel, which normally shields the tooth's pulp and dentin, thins, causing sensitivity. Sensitivity can also be brought on by:\n\nrecessed gums\nBruxism when sleeping Broken or chipped teeth Tooth whitening\ndental fillings and braces\nConsult your dentist, who will evaluate the impacted teeth and provide a treatment recommendation to lessen your sensitivity.",
+        "Patients with tooth sensitivity feel pain when they consume foods or drinks that are hot or cold, sweet, or acidic. Sensitivity happens when tooth enamel, which usually protects the tooth's pulp and dentin, is thinned from repeated exposure to acidity and extreme temperatures. Sensitivity can also occur as a result of:\n\nReceding gums\nTooth grinding during sleep\nChipped or fractured teeth\nTooth whitening\nOrthodontics and fillings\nTalk to your dental professional, and they will examine the affected teeth and recommend treatment to reduce your sensitivity."
+      ]
+    },
+    {
+      "tag":"Mouthwash",
+      "patterns":[
+        "Mouthwash",
+        "How Frequently i do Mouthwash",
+        "Should I Regularly Use Mouthwash?",
+        "Do I need to regularly use mouthwash?",
+        "Do I Need to Use Mouthwash Frequently?",
+        "Should I Frequently Use Mouthwash?",
+        "Should I Use Mouthwash Regularly?"
+      ],
+      "responses":[
+        "There are several varieties of mouthwash, therefore it depends. Cosmetic mouthwashes contain fluoride to help prevent cavities in addition to freshening breath and maintaining a healthy shade of teeth. Therapeutic rinses are effective in treating inflammation, sensitivity, and gingivitis. Chlorhexidine gluconate, which kills germs that cause bleeding, inflammation, plaque development, and biofilm formation, is frequently used in prescription mouthwashes for more severe disorders.",
+        "There are several kinds of mouthwash, therefore it depends. Cosmetic mouthwashes contain fluoride to help prevent cavities in addition to freshening breath and maintaining a healthy tooth colour. Therapeutic rinses can be used to address problems like gingivitis, tooth sensitivity, and inflammation. Chlorhexidine gluconate, which kills germs that cause bleeding, inflammation, and plaque or biofilm development, is frequently used in prescription mouthwashes for more severe disorders.",
+        "Various mouthwashes are available, thus it depends. Cosmetic mouthwashes include fluoride to aid in the prevention of cavities as well as to freshen breath and preserve a healthy shade of teeth. Gingivitis, tooth sensitivity, and inflammation are all problems that can be treated with therapeutic rinses. Chlorhexidine gluconate, which kills bacteria that cause bruising, swelling, and the production of plaque or biofilms, is frequently used in prescription mouthwashes for more severe disorders.",
+        "It varies; there are several varieties of mouthwash. Cosmetic mouthwashes work to freshen breath and keep teeth looking white, but they also include fluoride, which helps prevent cavities. Therapeutic rinses can be used to alleviate inflammation, sensitivity, and gingivitis, among other disorders. Prescription mouthwashes frequently contain chlorhexidine gluconate to eliminate germs that cause bleeding, irritation, and plaque or biofilm development in more severe situations.",
+        "There are several varieties of mouthwash, therefore it depends. Cosmetic mouthwashes contain fluoride to help prevent cavities in addition to freshening breath and maintaining a healthy shade of teeth. Therapeutic rinses are effective in treating inflammation, sensitivity, and gingivitis. Chlorhexidine gluconate, which kills germs that cause bleeding, inflammation, plaque development, and biofilm formation, is frequently used in prescription mouthwashes for more severe disorders.",
+        "It depends - there are different kinds of mouthwash. Cosmetic mouthwashes aim to freshen breath and to maintain a healthy teeth color, but they contain fluoride to help fight cavities as well. Therapeutic rinses work to help treat conditions such as gingivitis, tooth sensitivity, and inflammation. For more advanced conditions, prescription mouthwashes often contain chlorhexidine gluconate to kill bacteria that cause bleeding, inflammation, and plaque or biofilm formation."
+      ]
+    },
+    {
+      "tag":"Baby Teeth",
+      "patterns":[
+        "kid teeth",
+        "When Do kid Teeth Usually Fall Out?",
+        "Baby Teeth",
+        "When Do Baby Teeth Usually Fall Out?",
+        "What Time Do Baby Teeth Usually Fall Out?",
+        "Usually, when do baby teeth fall out?",
+        "When Usually Do Baby Teeth Fall Out?",
+        "When Do Baby Teeth Typically Fall Out?"
+      ],
+      "responses":[
+        "Typically, between the ages of six and eight, a kid starts losing their baby teeth. The sequence in which they grew is usually about how they fall out. Every patient is unique, so bear that in mind. Depending on factors including how long it has been since their previous visit, how long a child's baby teeth will persist, and what types of things they are inherently more sensitive to, oral diseases in children and adults differ.",
+        "Around the age of six to eight, most kids start losing their baby teeth. They normally disappear in nearly the same order as they emerged. Do not forget that every patient is unique. Children's and adults' dental health depends on factors including how long it's been since their previous visit, how long a child's baby teeth last, and what types of things you are inherently more sensitive to.",
+        "Between the ages of six and eight, the majority of youngsters start losing their baby teeth. They normally disappear in the same general order that they emerged. Remember that every patient is unique. How long a person has gone between dental visits, how long a child's baby teeth last, and what types of things you are inherently more sensitive to all affect oral diseases in children and adults.",
+        "Most children begin losing their baby teeth between the ages of six and eight. They typically fall out in roughly the same order in which they grew. Keep in mind that all patients are different. Children and adult oral conditions depend on how long they've gone without an appointment, how long a child's baby teeth last, and what kinds of things you are naturally more sensitive to."
+      ]
+
+
+    },
+    {
+      "tag":"Dry",
+      "patterns":[
+        "Why is my mouth feeling dry?",
+        "What causes the dryness in my mouth?",
+        "Why do I have a dry mouth?",
+        "What causes the dry mouth I have?",
+        "Why does my mouth feel dry?"
+      ],
+      "response":[
+        "There are several reasons of dry mouth that aren't underlying illnesses. For instance, not drinking enough water, sleeping with your mouth open, hot and dry weather, eating dry meals, or adverse drug reactions.",
+        "There are several reasons for dry mouth besides an underlying illness. Examples include not drinking enough water, sleeping with your mouth open, hot, dry weather, eating meals that are too dry, or adverse drug reactions.",
+        "There are other reasons of dry mouth besides underlying illness. Examples include underhydrating, sleeping with your mouth open, hot, dry weather, eating dry meals, or adverse drug reactions.",
+        "Dry mouth is a symptom that results from a lack of saliva. Individuals with dry mouth do not have enough saliva to keep their mouth wet.",
+        "Dry mouth can have causes that aren't due to underlying disease. Examples include not drinking enough fluids, sleeping with mouth open, dry hot weather, eating dry foods or medication side effects."
+      ]
+    }
+
+
+
+
+  ]
+}
