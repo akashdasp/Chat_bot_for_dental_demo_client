@@ -3,6 +3,9 @@
     {
       "tag": "greeting",
       "patterns": [
+        "you are Created for what Reason",
+        "you are Created for what",
+        "Why you are Created",
         "Hi",
         "Hey",
         "How are you",
@@ -10,13 +13,19 @@
         "Hello",
         "Good Evening",
         "Good day",
+        "sister i need help",
+        "can you Please help me",
+        "please help me",
+        "Help me",
+        "I need Help",
         "i need a help "
 
       ],
       "responses": [
+        "Greetings! My name is Alice, and I work at Frontier Dental as a virtual assistant how can i help",
         "Welcome to Frontier Dental How can I Help ",
         "Hi I'm Alice a virtual assistant of Frontier Dental",
-        "Hey there :-)",
+        "Hey there \uD83D\uDE0A ",
         "Hello, thanks for visiting Frontier Dental How can i help",
         "Hi there, what can I do for you?",
         "Hi there, how can I help?"
@@ -24,12 +33,13 @@
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "patterns": ["by","Bye", "See you later", "Goodbye","goodnight","Good bye","Good night"],
+
       "responses": [
-        "See you later, thanks for visiting",
-        "Have a nice day",
-        "Good Bye see you again",
-        "Bye! Come back again soon."
+        "See you later, thanks for visiting \uD83D\uDC4B",
+        "Have a nice day \uD83D\uDC4B",
+        "Good Bye see you again \uD83D\uDC4B",
+        "Bye! Come back again soon. \uD83D\uDC4B"
       ]
     },
     {
@@ -42,8 +52,12 @@
     {
       "tag": "items",
       "patterns": [
+        "buy",
+        "item",
+        "items",
+        "something",
         "Give me something",
-        "I want to by something",
+        "I want to buy something",
         "you Sell which kind of Product",
         "I need some Dental items",
         "I need some product",
@@ -56,6 +70,9 @@
         "What do you sell?"
       ],
       "responses": [
+        "We sell dental products, in particular, medical products.",
+        "We sell medical supplies, particularly dental supplies.",
+        "We market dental products, in particular, in the medical sector.",
         "We sell medical items specially we sell Dental items",
         "We have medical items and have a wider range of Dental items"
       ]
@@ -63,6 +80,10 @@
     {
       "tag": "payments",
       "patterns": [
+        "payments",
+        "paid",
+        "pay",
+        "payment",
         "tell something about the Payment",
         "How do I pay",
         "Do you take credit cards?",
@@ -78,6 +99,9 @@
     {
       "tag": "delivery",
       "patterns": [
+        "what time it takes to get the item",
+        "deliver",
+        "delivery",
         "how long it will take to get the Items",
         "how long it will take to reach my place",
         "how long it take to get the Product",
@@ -98,6 +122,8 @@
     {
       "tag": "funny",
       "patterns": [
+        "fun",
+        "funny",
         "Tell me some thing that i can Laugh",
         "can you be funny",
         "Write some thing to make me happy",
@@ -116,6 +142,17 @@
     {
       "tag":"discount",
       "patterns":[
+        "where i can find the best items",
+        "where to find the best price ",
+        "where to find the best deal",
+        "how can i find the best deal",
+        "how to find the best deal",
+        "where i can find the best deals",
+        "can i have some Discounts",
+        "can i have Discounts",
+        "Give Discounts",
+        "Give Discount",
+        "discount",
         "so me the most Discounted Products",
         "can i get some extra discount",
         "Give me Discount",
@@ -133,6 +170,12 @@
     {
       "tag":"contact",
       "patterns": [
+        "How can i contact you",
+        "Email Address",
+        "Email",
+        "contact",
+        "How can I reach you?",
+        "What number can I reach you at?",
         "give me contact Details ",
         "Connect me to the Customer Care executive",
         "Can you Connect me to the Customer Care",
@@ -154,6 +197,7 @@
     {
       "tag":"Address",
       "patterns": [
+        "Address",
         "What is your Address",
         "What is your Location",
         "what is the Address",
@@ -191,6 +235,8 @@
     {
       "tag":"name",
       "patterns":[
+        "When can I reach you?",
+        "What can I call you at?",
         "by the  way what is our name",
         "what is you name by the Way",
         "can you tell your name",
@@ -199,6 +245,8 @@
         "what is your name"
       ],
       "responses":[
+        "Hello, I'm Alice, and I work as a virtual assistant at Frontier Dental.",
+        "Hello, I'm Alice, and I work at Frontier Dental as a virtual assistant.",
         "You can call me Alice Nice to Meet you",
         "Hi my name is Alice I'm Here to Help you",
         "Hi My name is  Alice I'm a virtual assistant of Frontier Dental"
@@ -244,6 +292,10 @@
     {
       "tag": "Checkup",
       "patterns":[
+        "Exam",
+        "Examination",
+        "Medical Checkup",
+        "Checkup",
         "How Often Should I Have a Dental Examination ?",
         "When Should I Have a Dental Exam ?",
         "How Frequently Should I Have a Dental Exam",
@@ -260,6 +312,14 @@
     {
       "tag":"Hygiene",
       "patterns":[
+        "tooth care ",
+        "teeth care",
+        "take care of teeth",
+        "how to take care of teeth",
+        "how to take care of tooth",
+        "Oral Hygiene",
+        "Hygiene",
+        "how to maintain oral hygiene",
         "How Do I Practice Good Oral Hygiene at Home?",
         "What Are the Best Ways to Maintain Good Oral Hygiene at Home?",
         "Which Techniques Are the Best for Practicing Good Oral Hygiene at Home?",
@@ -278,6 +338,10 @@
     {
       "tag":"Whiten",
       "patterns":[
+        "how to whiten my tooth",
+        "how to whiten my teeth",
+        "how to white my teeth",
+        "How to white my tooth",
         "How can i make my teeth Whiter",
         "What Steps Can I Take to Whiten My Teeth Better?",
         "What Can I Do to Make My Teeth Whiter?",
@@ -296,9 +360,16 @@
     {
       "tag": "Sensitivity",
       "patterns":[
+        "how can i reduce my teeth sensitivity",
+        "how can i reduce my tooth sensitivity",
+        "sense",
+        "sensitive",
         "Sensitivity",
         "I Have Sensitive Teeth. How Do I Fix This?",
         "How to avoid sensitivity",
+        "What is teethsensitivity?",
+        "What is toothsensitivity?",
+        "What is teeth sensitivity?",
         "What is tooth sensitivity?",
         "What is tooth sensitivity, and why do I get it?",
         "What is tooth sensitivity, and why am I affected by it?",
@@ -318,6 +389,9 @@
     {
       "tag":"Mouthwash",
       "patterns":[
+        "mouth wash",
+        "should i do mouthwash daily?",
+        "Should i do mouth wash daily?",
         "Mouthwash",
         "How Frequently i do Mouthwash",
         "Should I Regularly Use Mouthwash?",
@@ -338,6 +412,7 @@
     {
       "tag":"Baby Teeth",
       "patterns":[
+        "BabyTeeth",
         "kid teeth",
         "When Do kid Teeth Usually Fall Out?",
         "Baby Teeth",
@@ -365,14 +440,76 @@
         "What causes the dry mouth I have?",
         "Why does my mouth feel dry?"
       ],
-      "response":[
+      "responses":[
         "There are several reasons of dry mouth that aren't underlying illnesses. For instance, not drinking enough water, sleeping with your mouth open, hot and dry weather, eating dry meals, or adverse drug reactions.",
         "There are several reasons for dry mouth besides an underlying illness. Examples include not drinking enough water, sleeping with your mouth open, hot, dry weather, eating meals that are too dry, or adverse drug reactions.",
         "There are other reasons of dry mouth besides underlying illness. Examples include underhydrating, sleeping with your mouth open, hot, dry weather, eating dry meals, or adverse drug reactions.",
         "Dry mouth is a symptom that results from a lack of saliva. Individuals with dry mouth do not have enough saliva to keep their mouth wet.",
         "Dry mouth can have causes that aren't due to underlying disease. Examples include not drinking enough fluids, sleeping with mouth open, dry hot weather, eating dry foods or medication side effects."
       ]
+    },
+    {
+      "tag": "cavity",
+      "patterns": [
+        "what is cavity",
+        "what is dental cavity",
+        "i have oral cavity what is the solution ",
+        "i have cavity what should i do",
+        "oral cavity",
+        "cavity",
+        "how to avoid oral Cavity in tooth",
+        "how to avoid oral Cavity in teeth",
+        "how to avoid Cavity in tooth",
+        "how to avoid Cavity in teeth",
+        "Do i have oral Cavity",
+        "Do i have Cavity"
+      ],
+      "responses":[
+        "Cavities are portions of your teeth's hard surface that have been permanently damaged and turn into little holes or apertures. Cavities can be prevented and reversed by maintaining good oral hygiene, which includes frequent brushing, flossing, and tooth cleanings with a dentist. To stop tooth decay and cavities, use fluoride, a tried-and-true method. Fluoride applications directly on the teeth or in high-fluoride toothpaste aid to remineralize the enamel and shield teeth against cavities.",
+        "Cavities are small holes or openings that form on the hard surface of your teeth over time. Cavities may be prevented and reversed with good oral hygiene practises including consistent brushing, flossing, and professional cleanings. Fluoridation is a tried-and-true method for preventing tooth decay and cavities. In order to remineralize the tooth enamel and prevent cavities, high-fluoride toothpaste or direct fluoride treatment are helpful.",
+        "Cavities are little holes or gaps on the hard surface of your teeth that are permanently damaged. Cavities can be prevented and reversed with good oral hygiene practises including frequent brushing, flossing, and tooth cleanings with a dentist. A tried-and-true method for preventing tooth decay and cavities is to use fluoride. Fluoride applications such as toothpaste with a high fluoride content help to remineralize tooth enamel and guard against cavities.",
+        "Cavities are permanently damaged areas in the hard surface of your teeth that develop into tiny openings or holes Good oral hygiene like regular brushing, flossing, and dental cleanings with a dentist can prevent and reverse cavities. Using fluoride is a tried and tested way to prevent decay and cavities. High-fluoride toothpaste or direct fluoride application helps remineralize the tooth enamel and prevent cavities."
+      ]
+
+    },
+    {
+      "tag":"mean",
+      "patterns": [
+        "what is you name ment for",
+        "what is the Meaning",
+        "meaning",
+        "meaning of your name",
+        "What does your name mean?",
+        "What does your name mean, exactly?",
+        "What does your name mean in English?",
+        "what is the Meaning of your name"
+      ],
+      "responses":[
+        "My name is a female given name, and the directory says it means: from a term of Germanic origin that means \"of high status\"",
+        "My name is a female given name, according to the directory: taken from a Germanic term that means \"of high status\"",
+        "My name is a female given name, and the meaning given by the directory is as follows: derived from a Germanic term for \"of noble status\"",
+        "According to directory the meaning of my name is a female given name: from a Germanic word meaning “of noble rank”"
+      ]
+
+    },
+    {
+      "tag": "Developer",
+      "patterns": [
+        "what is your code",
+        "share code of yours",
+        "can you please share your code",
+        "Share your Code",
+        "how can i Create you",
+        "in what code you are Written",
+        "can you share your code"
+      ],
+      "responses":[
+        "I can't reveal my code, but I do know that it was made to help those who are visiting Frontial Dental.",
+        "I was designed to provide assistance to those visiting Frontial Dental, but I am unable to share my code with you at this time.",
+        "I am unable to provide my code, however I can tell you that it was made to aid those who are visiting Frontial Dental."
+      ]
     }
+
 
 
 

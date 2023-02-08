@@ -4,7 +4,7 @@ import torch
 from model import NeuralNet
 from app import bag_of_words, tokenize
 device= torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-with open('intent.json','r') as f:
+with open('intent.json','r',encoding='utf-8') as f:
     intents=json.load(f)
 FILE = "data.pth"
 data=torch.load(FILE)
